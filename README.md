@@ -17,7 +17,7 @@ git clone https://github.com/JMCOliveira02 LatencyMeasurements2
 ```
 
 ## Usage
-* Open a terminal in the same directory as the script **Detect.py** and run it with **python 3.8.11**
+* Open a terminal in the same directory as the script **Detect.py** and run it with **python 3.11.8**
 ```sh
 python Detect.py
 ```
