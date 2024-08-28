@@ -59,7 +59,7 @@ while True:
             timestamp2 = time.time()
             test_n+=1
             print("Latency_test#{} : {}".format(test_n, timestamp2-timestamp1))
-            with open("testsWiFi.txt", "a") as file:
+            with open("tests.txt", "a") as file:
                 # Write content to the file
                 file.write("Latency_test,{}, {}\n".format(test_n, timestamp2-timestamp1))
             client.publish(topic,read_message_from_file("LED_off.xml"))
